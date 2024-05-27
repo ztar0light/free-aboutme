@@ -62,22 +62,6 @@
     line-height: 1; /* Ensure the button height is one line tall */
 }
 
-.googleDocs {
-    background-color: #4285F4; /* Blue */
-}
-
-.googleSheets {
-    background-color: #34A853; /* Green */
-}
-
-.googleSlides {
-    background-color: #FBBC05; /* Yellow */
-}
-
-.googleClassroom {
-    background-color: #FF7043; /* Orange */
-}
-
 .button:hover,
 .button:focus {
     background-color: white;
