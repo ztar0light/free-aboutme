@@ -6,7 +6,8 @@ The CSS stylesheets, that tell the website how to display the information detail
 
 Different styles of webpage will also be uploaded eventually.
 
-### Terminology
-`HTML` - Hyper-Text Markup Link | A form of code that browsers read in order to know what to show.
+## Extra Instructions
 
-`CSS` - Cascading Style-Sheet | A form of code that a browser reads in order to know how to display the HTML.
+Under the assets folder, you will find two files titled `favicon.ico` and `pfp.png`. The favicon goes as the little icon on the tab, and the pfp is for at the top of the page. Both of the placeholders are just black pngs that have been named appropriately. You are to feel free to upload your own files and then rename them correctly. Just keep in mind that you have to convert whatever file you are using for the icon from `.png` to `.ico`.
+
+Please also be careful when editing all the files to ensure you don't delete anything. We don't claim any responsibility if you break it, but do let us know if there are any bugs in the `.html`.
