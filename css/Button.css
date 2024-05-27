@@ -5,6 +5,26 @@
     left: 20px;
 }
 
+.buttonBlue {
+    background-color: #4285F4; /* Blue */
+}
+
+.buttonGreen {
+    background-color: #34A853; /* Green */
+}
+
+.buttonYellow {
+    background-color: #FBBC05; /* Yellow */
+}
+
+.buttonOrange {
+    background-color: #FF7043; /* Orange */
+}
+
+.buttonRed {
+    background-colour: #FF3636: /* Red */
+}
+
 #backButton {
     background-color: transparent;
     color: #FFA500;
