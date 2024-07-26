@@ -15,8 +15,23 @@ Please also be careful when editing all the files to ensure you don't delete any
 # How to deploy
 
 End product without custom DNS: YOUR USERNAME.github.io/YOUR REPO NAME/
+
 End product with custom DNS: YOUR DOMAIN.ENDING/
 
 To deploy, simply create your own repository in your github home page or via command > add file > upload new files > upload the un-ziped files from your computer icl: assets folder, css folder, index.html >  ... > settings > page > Source:Deploy from a branch > Branch: main: root. Done. If you refresh the webpage, there should be a box saying "Your site is live at ......".
 
 # Customization guide
+
+backButton.css : back button color and hovered color effect
+
+container.css : area inside the rounded box inside the main rectangle
+
+general.css : background color, text color
+
+profilePicture.css : profile border color
+
+roundedRectangle.css : color of the main rectangle
+
+semallTextBox.css : various text font size
+
+Index.html : PRE-ANNOTATED
