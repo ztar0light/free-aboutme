@@ -1,62 +1,37 @@
-# Project VOXY: CoreXY Conversion for Ender 3-Based Printers
+# free-aboutme
 
-**Project VOXY** is an open-source initiative designed to convert Ender 3-based 3D printers into CoreXY systems. This mod leverages mostly stock parts, supplemented by off-the-shelf 6mm GT2 belt systems and 3D-printable components. Inspired by the Voron 2.4, Project VOXY offers an affordable solution for serious rapid prototyping and development.
+Welcome to the `free-aboutme` repo. This is a repository where a template for an 'about me' website is posted for free use by everyone who wishes to use it. All of the HTML file (the file that tells the browser the content it needs to display) will contain simple commenting and formatting in order to make it easy for somebody who doesn't understand HTML to edit it and make it their own.
 
-## Features
+The CSS stylesheets, that tell the website how to display the information detailed by the HTML, are also commented appropriately in order to allow users to edit the colours of their website.
 
-- **CoreXY Kinematics**: Elevate your 3D printer's capabilities with CoreXY mechanics, allowing for faster and more accurate prints.
-- **Belt-Driven Z-Axis**: A cost-effective, single motor system drives the Z-axis for smoother operation.
-- **Integrated Enclosure**: Designed for easy customization, with clear tarp options for affordability, improving print quality by maintaining a stable environment.
-- **Flexible Firmware Options**: Compatible with both Marlin and Klipper, providing advanced features like input shaping.
-- **Modular Design**: Easily upgradeable, with support for high-temp hotends, BLTouch, dual Z-axis, and more.
+Different styles of webpage will also be uploaded eventually.
 
-## Getting Started
+# Extra Instructions
 
-### Prerequisites
+Under the assets folder, you will find two files titled `favicon.ico` and `pfp.png`. The favicon goes as the little icon on the tab, and the pfp is for at the top of the page. Both of the placeholders are just black pngs that have been named appropriately. You are to feel free to upload your own files and then rename them correctly. Just keep in mind that you have to convert whatever file you are using for the icon from `.png` to `.ico`.
 
-- **Compatible 3D Printer**: Ender 3, Ender 3 Pro, Ender 3 V2, or similar.
-- **Firmware**: Marlin or Klipper.
-- **Materials Needed**: PETG filament, 6mm GT2 belts, pulleys, and optional linear rails.
+Please also be careful when editing all the files to ensure you don't delete anything. We don't claim any responsibility if you break it, but do let us know if there are any bugs in the `.html`.
 
-### Parts List
+# How to deploy
 
-- **Belts & Pulleys**: Standard 6mm GT2 belts and pulleys.
-- **Printed Components**: Available in the `/STL` folder.
-- **Linear Rails** (optional): Recommended for enhanced stability, particularly on the X-axis.
-- **Electronics**:
-  - NEMA 17 stepper motors (stock).
-  - Raspberry Pi (if running Klipper).
-  - BLTouch (optional for automatic bed leveling).
+End product without custom DNS: YOUR USERNAME.github.io/YOUR REPO NAME/
 
-### Assembly Instructions
+End product with custom DNS: YOUR DOMAIN.ENDING/
 
-1. **Disassemble**: Remove necessary components from your printer.
-2. **Modify Frame**: Follow the provided instructions to reposition Z extrusions and prepare the frame for CoreXY setup.
-3. **Install Belts**: Use the provided diagrams to install the GT2 belts and pulleys.
-4. **Firmware Configuration**:
-   - For Marlin: Use the provided configuration files.
-   - For Klipper: Set up the Raspberry Pi and flash the appropriate firmware.
-5. **Assemble Enclosure**: Optionally, create the enclosure using clear tarp or other materials.
+To deploy, simply create your own repository in your github home page or via command > add file > upload new files > upload the un-ziped files from your computer icl: assets folder, css folder, index.html >  ... > settings > page > Source:Deploy from a branch > Branch: main: root. Done. If you refresh the webpage, there should be a box saying "Your site is live at ......".
 
-## Usage
+# Customization guide
 
-After completing the conversion, your printer will operate as a CoreXY system. For optimal performance:
-- **Level the bed** using a BLTouch or manual mesh leveling.
-- **Tune print settings**: Adjust print speeds, acceleration, and input shaping if using Klipper.
+backButton.css : back button color and hovered color effect
 
-## Contributing
+container.css : area inside the rounded box inside the main rectangle
 
-We welcome contributions from the community! If you have ideas for improvement or new features, please follow these steps:
+general.css : background color, text color
 
-1. Fork this repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes.
-4. Submit a pull request for review.
+profilePicture.css : profile border color
 
-## License
+roundedRectangle.css : color of the main rectangle
 
-Project VOXY is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+semallTextBox.css : various text font size
 
-## Acknowledgments
-
-Thanks to the Voron community for their inspiration, and to all contributors who have helped make Project VOXY a reality.
+Index.html : PRE-ANNOTATED
